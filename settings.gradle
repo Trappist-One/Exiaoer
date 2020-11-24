@@ -1,0 +1,3 @@
+rootProject.name = 'Exiaoer'
+include 'xiaoer-api'
+

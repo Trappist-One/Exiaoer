@@ -1,3 +1,4 @@
 rootProject.name = 'Exiaoer'
 include 'xiaoer-api'
+include 'xiaoer-pojo'
 

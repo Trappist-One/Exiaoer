@@ -43,4 +43,17 @@ subprojects {
         options.encoding = "UTF-8"
     }
 
+    sourceSets{
+//        src {
+//            main {
+//                java.srcDir 'java'
+//                resources.srcDirs 'resources'
+//            }
+//            test {
+//                java.srcDir 'java'
+//                resources.srcDirs 'resources'
+//            }
+//        }
+    }
+
 }

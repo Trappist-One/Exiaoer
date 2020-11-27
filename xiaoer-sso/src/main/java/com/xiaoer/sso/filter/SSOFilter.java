@@ -3,8 +3,6 @@ package com.xiaoer.sso.filter;
 import com.xiaoer.sso.listener.LogoutListener;
 import com.xiaoer.sso.pojo.FilterParam;
 import com.xiaoer.sso.session.SessionMappingStorage;
-import lombok.Getter;
-import lombok.Setter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

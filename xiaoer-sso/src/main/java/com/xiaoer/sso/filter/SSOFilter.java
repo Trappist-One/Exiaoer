@@ -1,6 +1,7 @@
 package com.xiaoer.sso.filter;
 
 import com.xiaoer.sso.listener.LogoutListener;
+import com.xiaoer.sso.pojo.FilterParam;
 import com.xiaoer.sso.session.SessionMappingStorage;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,19 +16,7 @@ import java.io.IOException;
  * @Description:
  * @Date: 2020/11/27 11:50
  */
-public abstract class SSOFilter implements Filter {
-    @Setter
-    @Getter
-    private String appId;
-
-    @Setter
-    @Getter
-    private String appSecret;
-
-    @Setter
-    @Getter
-    private String serverUrl;
-
+public abstract class SSOFilter extends FilterParam implements Filter {
 
     public abstract boolean isAccessAllowed(HttpServletRequest request, HttpServletResponse response)
             throws IOException;

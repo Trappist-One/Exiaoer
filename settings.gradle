@@ -1,6 +1,0 @@
-rootProject.name = 'Exiaoer'
-include 'xiaoer-api'
-include 'xiaoer-pojo'
-include 'xiaoer-sso'
-include 'xiaoer-common'
-

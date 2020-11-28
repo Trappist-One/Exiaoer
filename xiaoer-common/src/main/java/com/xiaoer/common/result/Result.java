@@ -1,7 +1,5 @@
 package com.xiaoer.common.result;
 
-import lombok.Getter;
-
 import java.beans.Transient;
 import java.io.Serializable;
 
@@ -26,20 +24,29 @@ public class Result<T> implements Serializable {
     /**
      * 结果体
      */
-    @Getter
     protected T data;
 
     /**
      * 状态码
      */
-    @Getter
     protected int code;
 
     /**
      * 信息
      */
-    @Getter
     protected String message;
+
+    public T getData() {
+        return data;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 
     private Result() {
         super();

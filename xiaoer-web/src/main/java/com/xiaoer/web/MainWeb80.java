@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @Description: Http请求 工具类
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2020/11/27 15:43
  */
 @SpringBootApplication
+@EnableDiscoveryClient
 public class MainWeb80 {
     private static final Logger log = LoggerFactory.getLogger(MainWeb80.class);
 

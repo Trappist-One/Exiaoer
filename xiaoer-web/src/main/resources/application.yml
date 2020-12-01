@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: xiaoer-web
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+

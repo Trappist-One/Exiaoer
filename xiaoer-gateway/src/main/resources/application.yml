@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: xiaoer-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: route_login
+          uri: lb://xiaoer-web #拦截url
+          predicates:
+            - Path=/login
+    nacos:
+      server-addr: localhost:8848 #注册入nacos
+server:
+  port: 9001

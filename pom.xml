@@ -18,7 +18,7 @@
         <module>xiaoer-api</module>
         <module>xiaoer-pojo</module>
         <module>xiaoer-common</module>
-        <module>xiaoer-sso</module>
+        <module>xiaoer-oauth2</module>
         <module>xiaoer-web</module>
         <module>xiaoer-gateway</module>
         <module>xiaoer-nacos</module>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: xiaoer-oauth2
+server:
+  port: 1001
+management:
+  endpoint:
+    health:
+      enabled: true
